@@ -24,13 +24,13 @@ engine:                      # engine settings
 #   cpuct: 3.1
   uci_options:               # arbitrary UCI options passed to the engine
  
-option name Contempt type spin : 100
-option name Threads type spin : 512
-option name Hash type spin : 33554432
-option name Ponder type check : false
-option name Movetime : 0
-option name Move Overhead type spin : 5000
-option name Slow Mover type spin : 10
+Contempt type spin : 100
+Threads type spin : 512
+Hash type spin : 33554432
+Ponder type check : false
+Movetime : 0
+Move Overhead type spin : 5000
+Slow Mover type spin : 10
 
 #    go_commands:             # additional options to pass to the UCI go command
 #      nodes: 1000               # Search so many nodes only.
